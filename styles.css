@@ -31,12 +31,23 @@ h2 {
     background-color: #0C6BFB;
     font-size: clamp(0.4rem,4vw,1.2rem);
     color: white;
+    text-decoration: underline;
 }
 
 .container-fluid{
     background-color: #0C6BFB;
     padding-right: 2%;
     outline: white solid 5px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-linkactive{
+    color: white;
+    text-align: center;
+    text-decoration: solid underline white;
 }
 
 .star {
