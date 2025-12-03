@@ -68,3 +68,25 @@ p {
     margin: 0 15% 0 15%;
     color: black;
 }
+
+.designs {
+    width: 150px;
+}
+
+.renders {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* When screen width is less than 540px */
+@media (max-width: 540px) {
+  .row {
+    flex-direction: column;
+  }
+}
