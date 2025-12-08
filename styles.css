@@ -73,6 +73,11 @@ p {
     width: 150px;
 }
 
+.render{
+    width: 400px;
+    padding-top: 20px;
+}
+
 .renders {
     width: 300px;
     padding-top: 20px;
