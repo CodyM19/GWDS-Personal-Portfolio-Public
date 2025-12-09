@@ -19,8 +19,8 @@ h1 {
     background-color: #f4f4f9;
     font-size: clamp(1rem,10vw,3rem);
     padding-top: 15px;
-    text-shadow: 3px 3px 2px black;
-    color: #586f7c;
+    text-shadow: 2px 2px 2px black;
+    color: #b8dbd9;
 }
 
 h2 {
@@ -117,4 +117,11 @@ p {
     height: auto;
     margin: 10px auto;
     }
+}
+
+.report {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 15% 0 15%;
+    color: black;
 }
