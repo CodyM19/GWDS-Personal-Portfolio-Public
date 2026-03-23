@@ -82,19 +82,21 @@ p {
   }
 }
 
-.carousel-item img {
+/*.carousel-item img {
     height: 500px;
     object-fit: cover;
-}
+}*/
 
 .carousel-container {
     width: 80%;
     margin: 20px auto;
+    max-height: 1200px;
+    max-width: 1200px;
 }
 
 @media (max-width: 768px) {
     .carousel-container {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 10px auto;
     }
