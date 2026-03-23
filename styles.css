@@ -16,7 +16,7 @@ h1 {
     height: 100px;
     text-align: center;
     background-color: #ffc0cb;
-    font-size: clamp(1rem,10vw,4.5rem);
+    font-size: clamp(1.5rem,10vw,4.5rem);
     padding-top: 15px;
     text-shadow: 2px 2px 2px black;
     color: #22ff00;
@@ -31,7 +31,7 @@ h2 {
     height: 45px;
     text-align: center;
     background-color: #ffc0cb;
-    font-size: clamp(0.4rem,4vw,1.2rem);
+    font-size: clamp(0.6rem,4vw,1.2rem);
     text-shadow: 2px 2px 2px black;
     color: #22ff00;
     text-decoration: underline;
