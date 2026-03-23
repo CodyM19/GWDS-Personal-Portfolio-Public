@@ -16,11 +16,14 @@ h1 {
     height: 100px;
     text-align: center;
     background-color: #ffc0cb;
-    font-size: clamp(1rem,10vw,3rem);
+    font-size: clamp(1rem,10vw,4.5rem);
     padding-top: 15px;
     text-shadow: 2px 2px 2px black;
     color: #22ff00;
     text-decoration: underline;
+    font-family: "carilliantine", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
 }
 
 h2 {
