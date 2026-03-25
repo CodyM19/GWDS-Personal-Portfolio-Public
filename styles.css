@@ -37,8 +37,19 @@ h2 {
     text-decoration: underline;
 }
 
+h3 {
+    text-align: center;
+    height: 45px;
+    text-align: center;
+    background-color: #f4f4f9;
+    font-size: clamp(0.6rem,4vw,1.2rem);
+    text-shadow: 2px 2px 2px black;
+    color: #22ff00;
+    text-decoration: underline;
+}
+
 .container-fluid{
-    background-color: white;
+    background-color: #ffc0cb;
     padding-right: 2%;
     outline: #118200 solid 5px;
 }
@@ -94,10 +105,10 @@ p {
     max-width: 1200px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .carousel-container {
     width: 100%;
     height: auto;
     margin: 10px auto;
     }
-}
+}*/
