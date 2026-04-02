@@ -95,12 +95,25 @@ p {
   height: auto;
 }
 
-/*.menu {
-    width: 70%;
-    height: auto;
-    border-radius: 6px;
-    margin: 0 15% 0 15%;
-}*/
+.contact-box {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-box input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.contact-box button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
 
 /* When screen width is less than 540px */
 @media (max-width: 540px) {
