@@ -67,9 +67,10 @@ h3 {
     font-weight: bold;
 }
 
-.VeganV {
+.Logo {
     vertical-align: right;
-    width: 100px;
+    width: 150px;
+    margin: 5px 5px 5px 5px;
 }
 
 p {
@@ -85,6 +86,21 @@ p {
   padding: 20px;
   border-radius: 6px;
 }
+
+.menu {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+}
+
+/*.menu {
+    width: 70%;
+    height: auto;
+    border-radius: 6px;
+    margin: 0 15% 0 15%;
+}*/
 
 /* When screen width is less than 540px */
 @media (max-width: 540px) {
