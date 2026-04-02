@@ -1,3 +1,4 @@
+// fade in
 gsap.from(".footer", {
   scrollTrigger: ".footer",
   y: 100,
@@ -5,6 +6,7 @@ gsap.from(".footer", {
   duration: 1,
 });
 
+// fade out
 gsap.from(".footer", {
   scrollTrigger: ".footer",
   y: 100,
